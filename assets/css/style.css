@@ -1,0 +1,102 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+body {
+    font-family: 'Roboto', sans-serif; font-weight: 300;
+}
+a:hover { text-decoration: none }
+
+
+.header-top-area {
+  background-color: #218AE6;
+  height: 50px;
+  padding: 11px;
+}
+.header-top-area,.header-top-area a {
+  color: #ffff;
+}
+.header-top-area, .text-right i.fa {
+
+ padding-left: 8px;
+}
+.header-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-area ul li {
+display: inline-block;
+padding: 30px 38px;
+font-size: 15px;
+}
+.header-area h3 {
+  padding: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.homepage-slides {
+  background-color: #218AE6;
+}
+
+.single_homepage-slider h2 {
+  font-weight: 100;
+  color: #fff;
+  font-size: 36px;
+}
+.single_homepage-slider p {
+  color: #fff;
+  font-size: 15px;
+}
+.slide-btn {
+  background: #F9CF25;
+  color: #333;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.single_homepage-slider {
+  padding: 150px 0;
+}
+
+.homepage-slides .owl-pagination .owl-dots div {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #F9CF25;
+  border-radius: 50%;
+}
+.homepage-slides .owl-pagination .owl-dots{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  bottom: 4px;
+}
